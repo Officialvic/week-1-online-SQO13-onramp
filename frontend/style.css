@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --class-background: #d7f6f6;
+    --class-twitter: #13acee;
+    --class-heart: #df191a;
+    --class-text: #a4a4a4;
+    --class-black: #090909;
+    --class-border: #feb968;
+    --class-check: #2ed8af;
+    --class-button: #13acee;
+    --class-white: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0 200px;
+    background-color: var(--class-black);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+img{
+    width: 35px;
+    border-radius: 50%;
+}
+.fa-twitter{
+    color: var(--class-twitter);
+}
+.fa-heart{
+    color: var(--class-heart);
+    font-size: 20px;
+}
+.feedback{
+    background-color: var(--class-background);
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#comment{
+    padding: 50px 50px 0 80px;
+}
+.container{
+    margin: 0 50px 50px ;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+article{
+    background-color: var(--class-white);
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+.card__title{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card__name{
+    display: flex;
+    margin-right: 70px;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+h2{
+    font-size: 15px;
+}
+h3{
+    font-size: 10px;
+    color: var(--class-text);
+}
+.card__content{
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 12.5px;
+    color: var();
+}
+.card__tag{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.heart{
+    display: flex;
+}
+.likes{
+    margin-left: 5px;
+}
+.date{
+    font-size: 13px;
+}
+
+.container__second{
+    background-color: var(--class-white);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.price{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 40px;
+}
+.price__caption{
+    font-size: 13px;
+    text-align: center;
+    margin: 10px;
+    line-height: 1.5;
+}
+.price__tag{
+    display: flex;
+    flex-flow: column;
+    border: 1px solid var(--class-border);
+    border-radius: 10px;
+    padding: 35px;
+}
+.data{
+    font-weight: 700;
+    font-size: 33px;
+}
+.fa-circle-check{
+    color: var(--class-check);
+}
+.features{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.features > div{
+    margin-top: 15px;
+    display: flex;
+}
+.features >div p{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.btn .fa-twitter{
+    color: var(--class-white);
+    padding-right: 10px;
+}
+.btn p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.btn{
+    background-color: var(--class-button);
+    color: var(--class-white);
+    display: flex;
+    margin-top: 20px;
+    padding: 12px;
+    justify-content: center;
+}
