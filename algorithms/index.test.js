@@ -41,17 +41,17 @@ const filterList = require('./challenge-5')
 //   })
 // })
 
-describe('Challenge 4 Tests', () => {
-  test('basic tests', () => {
-    expect(calculateGrade([19, 5, 42, 2, 77])).toBe('F')
-    expect(calculateGrade([59, 80, 40, 2, 77])).toBe('E')
-    expect(calculateGrade([89, 50, 40, 90, 77])).toBe('D')
-    expect(calculateGrade([59, 75, 82, 77])).toBe('C')
-    expect(calculateGrade([80, 80, 80])).toBe('B')
-    expect(calculateGrade([90, 90, 97])).toBe('A')
+// describe('Challenge 4 Tests', () => {
+//   test('basic tests', () => {
+//     expect(calculateGrade([19, 5, 42, 2, 77])).toBe('F')
+//     expect(calculateGrade([59, 80, 40, 2, 77])).toBe('E')
+//     expect(calculateGrade([89, 50, 40, 90, 77])).toBe('D')
+//     expect(calculateGrade([59, 75, 82, 77])).toBe('C')
+//     expect(calculateGrade([80, 80, 80])).toBe('B')
+//     expect(calculateGrade([90, 90, 97])).toBe('A')
   
-  })
-})
+//   })
+// })
 
 
 // describe('Challenge 5 Tests', () => {

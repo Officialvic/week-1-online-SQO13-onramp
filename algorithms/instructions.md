@@ -1,5 +1,12 @@
 # Challenge 1
-Implement a function countTruthy(arr) that takes an array and returns the number of truthy values
+// Implement a function countTruthy(arr) that takes an array and returns the number of truthy values
+// 1. declare a function of countTruthy with parameter(arr)
+// 2. Assess the elements in the array using for loop
+// 3. compare each elements assesed to the global variable array using logical statements
+// 4. store the elements that returns true into a local variable truthy and falsy
+// 5. Count the number of truthy values and output the value.
+
+
 
 # Example
 countTruthy([6, 3, 0, 30, 7])  to return 4 
@@ -31,20 +38,6 @@ Implement the function sumMix(arr) that given an array of integers as strings an
     sumMix(['3', 6, 6, 0, '5', 8, 5, '6', 2,'0']) to return 41
 
 
-# Challenge 4
-
-Implement the function calculateGrade(marks) that takes an array of grades and calculates the average. It should return the average grade by comparing with the grade table
-1-49: F
-50-59: E
-60-69: D
-70-79: C
-80-89: B
-90-100: A
-# Example
-    calculateGrade([80, 80, 70]) to  return A
-    calculateGrade([19, 5, 42, 2, 77]) to return 'F'
-    calculateGrade([59, 80, 40, 2, 77]) to return 'E'
-    calculateGrade([89, 50, 40, 90, 77]) to return 'D'
     
 # Challenge 5
 
